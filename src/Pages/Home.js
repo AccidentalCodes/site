@@ -91,7 +91,7 @@ const Home = () => {
       </nav>
       <div class="grid grid-cols-12 gap-3 p-4">
         <div class="col-span-7  row-span-2 m-2 p-4 rounded-[30px] text-white items-center justify-center shadow-lg">
-          <div class=" text-5xl flex flex-col mt-20 font-semibold font-['Comfortaa'] dark:text-white">
+          <div class=" text-5xl flex flex-col  pt-10 font-semibold font-['Comfortaa'] dark:text-white">
             Use color in your
             <span>visual storytelling</span>
           </div>
@@ -102,13 +102,13 @@ const Home = () => {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </div>
-          <div className="mt-3">
+          <div className="mt-5">
             <Button variant="contained">View more</Button>
           </div>
         </div>
-        
+
         <div class="col-span-4  m-2 rounded-[30px] justify-center items-center  shadow-lg">
-          <img src={mypht} className="w-2/4  rounded-[30px]" alt="Logo" />
+          <img src={mypht} className="w-2/4   rounded-[30px]" alt="Logo" />
         </div>
 
         <div class="col-span-12 row-span-2 m-2 rounded-[30px]  shadow-lg">
