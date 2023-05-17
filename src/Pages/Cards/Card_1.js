@@ -8,7 +8,6 @@ import card3G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7.png";
 import card3B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7i.png";
 import card4G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4.png";
 import card4B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4i.png";
-import Main from "/Volumes/SIYA/Git/site/src/Projects/TPK/Main.jpg";
 import ReactCompareImage from "react-compare-image";
 import Footer from "../../Components/Footer";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -18,19 +17,22 @@ const Card_1 = () => {
   return (
     <>
       <div class="grid grid-cols-12 gap-3 p-4">
-        <div class="col-span-12 row-span-2 m-2 rounded-[30px]  shadow-lg">
-          <div className="p-1 ">
-            <img src={Main} className="w-full rounded-[30px]" alt="Logo" />
-          </div>
-          <div className="m-3">
-            <Button variant="contained">
-              Play <YouTubeIcon className="ml-2"/>
-            </Button>
+        <div class="col-span-12 row-span-2 m-2 rounded-[30px] shadow-lg">
+          <div className="p-1">
+            <div className="aspect-w-16 aspect-h-8 rounded-[30px]">
+              <iframe
+                src="https://www.youtube.com/embed/Z5xw4lcrXPA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class=" w-full h-full rounded-[30px]"
+              ></iframe>
+            </div>
           </div>
         </div>
         <div class="col-span-12 text-5xl row-span-2 m-2 text-white  p-1 ">
           Movie Info
-          <div className="col-span-3 text-2xl mt-5">Camera : SonyA73</div>
+          <div className="col-span-3 text-2xl mt-5">Camera : SonyA7iii</div>
           <div className="flex flex-row">
             <div className="col-span-3 text-2xl mr-3 mt-5">Dop : Surya ,</div>
             <div className="col-span-3 text-2xl mr-3 mt-5">
@@ -75,6 +77,7 @@ const Card_1 = () => {
           />
         </div>
       </div>
+
       <Footer />
     </>
   );

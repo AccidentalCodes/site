@@ -7,6 +7,7 @@ import card2 from "../Img/Joker.png";
 import Button from "@mui/material/Button";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
+import Landing from "../Components/Landing";
 
 const Home = () => {
   return (
@@ -92,7 +93,7 @@ const Home = () => {
       </nav>
 
       <div class="grid grid-cols-12 gap-3 p-4 ">
-        <div class="col-span-12 sm:col-span-7  row-span-2 m-2 p-4 rounded-[30px] text-white items-center justify-center shadow-lg">
+        {/* <div class="col-span-12 sm:col-span-7  row-span-2 m-2 p-4 rounded-[30px] text-white items-center justify-center shadow-lg">
           <div class=" text-3xl sm:text-5xl flex flex-col  pt-10 font-semibold font-['Comfortaa'] dark:text-white">
             Use color in your
             <span>visual storytelling</span>
@@ -114,6 +115,10 @@ const Home = () => {
             className=" h-9/12  sm:w-full   rounded-[30px]"
             alt="Logo"
           />
+        </div> */}
+
+        <div className="col-span-12">
+          <Landing />
         </div>
         <div class="col-span-12 row-span-2 m-2 rounded-[30px]  shadow-lg">
           <div className="p-1 ">
