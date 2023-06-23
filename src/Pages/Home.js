@@ -9,6 +9,14 @@ import Footer from '../Components/Footer';
 import {Link} from 'react-router-dom';
 import Landing from '../Components/Landing';
 import c1 from '../Projects/Mogathirai/mogathirai.png';
+import c2 from '../ProjCard/Gonemad_1.40.1.png';
+import c3 from '../ProjCard/Time_1.47.1.png';
+import c4 from '../ProjCard/imran_1.70.1.png';
+import c5 from '../ProjCard/kkp_1.183.1.png';
+import c6 from '../ProjCard/tk_1.42.1.png';
+import c7 from '../ProjCard/ooty_2.45.1.png';
+import c8 from '../ProjCard/dog_1.8.1.png';
+import c9 from '../ProjCard/iclean_1.24.1.png';
 
 const Home = () => {
   return (
@@ -78,51 +86,51 @@ const Home = () => {
             <img src={card1} className="w-full rounded-[20px]" alt="Logo" />
           </Link>
         </div> */}
-        
-   
+
+        {/* <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
         <div class="col-span-6 sm:col-span-3  row-span-2 ">
-          <Link to="card_1">
-            <img src={c1} className="w-full rounded-[15px]" alt="Logo" />
+          <Link to="card_1 ">
+            <img src={c1} className="w-full rounded-[15px] " alt="Logo" />
           </Link>
         </div>
         <div class="col-span-6 sm:col-span-3  row-span-2    ">
           <Link to="card_1">
-            <img src={card2} className="w-full rounded-[10px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
-          </Link>
-        </div>
-        <div class="col-span-12 sm:col-span-3  row-span-2  rounded-[20px]  ">
-          <Link to="card_1">
-            <img src={card2} className="w-full rounded-[20px]" alt="Logo" />
+            <img src={c2} className="w-full rounded-[10px]" alt="Logo" />
           </Link>
         </div>
         <div class="col-span-6 sm:col-span-3  row-span-2    ">
           <Link to="card_1">
-            <img src={card2} className="w-full rounded-[10px]" alt="Logo" />
+            <img src={c3} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c4} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c5} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c6} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c7} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c8} className="w-full rounded-[10px]" alt="Logo" />
+          </Link>
+        </div>
+        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+          <Link to="card_1">
+            <img src={c9} className="w-full rounded-[10px]" alt="Logo" />
           </Link>
         </div>
         <div class="col-span-6 sm:col-span-3  row-span-2    ">
