@@ -1,17 +1,17 @@
-import React from "react";
-import Button from "@mui/material/Button";
-import card1G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk2.png";
-import card1B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk2i.png";
-import card2G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk3.png";
-import card2B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk3i.png";
-import card3G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7.png";
-import card3B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7i.png";
-import card4G from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4.png";
-import card4B from "/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4i.png";
-import ReactCompareImage from "react-compare-image";
-import Footer from "../../Components/Footer";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import React from 'react';
+import Button from '@mui/material/Button';
+import card1G from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk2.png';
+import card1B from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk2i.png';
+import card2G from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk3.png';
+import card2B from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk3i.png';
+import card3G from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7.png';
+import card3B from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk7i.png';
+import card4G from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4.png';
+import card4B from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4i.png';
+import ReactCompareImage from 'react-compare-image';
+import Footer from '../../Components/Footer';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Card_1 = () => {
   return (
@@ -25,8 +25,7 @@ const Card_1 = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-                class=" w-full h-full rounded-[30px]"
-              ></iframe>
+                class=" w-full h-full rounded-[30px]"></iframe>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Landing = () => {
                   data-aos-duration="1000"
                 />
               </div>
-              <div className="absolute">
+              <div className="absolute ">
                 <img
                   src={c4}
                   alt="Logo"

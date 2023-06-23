@@ -12,7 +12,7 @@ import c1 from '../Projects/Mogathirai/mogathirai.png';
 import c2 from '../ProjCard/Gonemad_1.40.1.png';
 import c3 from '../ProjCard/Time_1.47.1.png';
 import c4 from '../ProjCard/imran_1.70.1.png';
-import c5 from '../ProjCard/kkp_1.183.1.png';
+import c5 from '../ProjCard/kkp_1.31.1.png';
 import c6 from '../ProjCard/tk_1.42.1.png';
 import c7 from '../ProjCard/ooty_2.45.1.png';
 import c8 from '../ProjCard/dog_1.8.1.png';
@@ -88,49 +88,141 @@ const Home = () => {
         </div> */}
 
         {/* <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
-        <div class="col-span-6 sm:col-span-3  row-span-2 ">
-          <Link to="card_1 ">
-            <img src={c1} className="w-full rounded-[15px] " alt="Logo" />
+        <div class="group col-span-6 sm:col-span-3  rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <Link to="card_1">
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c1}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Mogathirai
+              </h1>
+              \
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c2} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c2}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Gonemad
+              </h1>
+              \
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c3} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c3}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Time for Pride
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3  row-span-2 rounded-[10px] relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c4} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c8}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Pet 101
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c5} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c9}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Iclean
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c6} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c6}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Thuru Pudicha Kadhal
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c7} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c7}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Un arugil
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c8} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c4}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                vazhipokkanin Maayaoli
+              </h1>
+            </div>
           </Link>
         </div>
-        <div class="col-span-6 sm:col-span-3  row-span-2    ">
+        <div class="group col-span-6 sm:col-span-3 rounded-[10px] row-span-2  relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <Link to="card_1">
-            <img src={c9} className="w-full rounded-[10px]" alt="Logo" />
+            <img
+              class="h-full w-full rounded-[10px] object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              src={c5}
+            />
+
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+                Kuviyamila Katchi Pizhai
+              </h1>
+            </div>
           </Link>
         </div>
         <div class="col-span-6 sm:col-span-3  row-span-2    ">
