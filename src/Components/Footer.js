@@ -7,18 +7,22 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
   return (
     <div>
-      <div class="grid grid-cols-12 gap-3 p-5 dark:bg-zinc-800">
-        <div class="col-span-12 items-center justify-center flex flex-col rounded-lg p-3  text-lg font-bold text-white ">
-          Follow us
+      <div class="grid grid-cols-12 gap-3 p-5 dark:bg-zinc-900">
+        <div class="col-span-12 flex justify-between rounded-lg mt-10 text-lg  text-white ">
           <div>
-            <InstagramIcon className="mr-2" />
-            <TwitterIcon className="mr-2" />
-            <YouTubeIcon className="mr-2" />
-            <LinkedInIcon className="mr-2" />
+            <div>
+              <InstagramIcon className="mr-10" />
+              <TwitterIcon className="mr-10" />
+              <YouTubeIcon className="mr-10" />
+              <LinkedInIcon className="mr-10" />
+            </div>
+            <div class="col-span-12 mt-5 mb-10 text-white ">
+              © 2023 THE COLOR ALCHEMIST, ALL RIGHTS RESERVED
+            </div>
           </div>
-        </div>
-        <div class="col-span-12 items-center justify-center  flex flex-col rounded-lg  text-white ">
-          © 2023 TheColorAlchemist All Rights Reserved
+          <div className=" text-white">
+            <p>ewegegege</p>
+          </div>
         </div>
       </div>
     </div>

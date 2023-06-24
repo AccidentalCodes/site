@@ -11,13 +11,13 @@ import card4B from '/Volumes/SIYA/Git/site/src/Projects/TPK/tpk4i.png';
 import ReactCompareImage from 'react-compare-image';
 import Footer from '../../Components/Footer';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Card_1 = () => {
   return (
     <>
-      <div class="grid grid-cols-12 gap-3 p-4">
-        <div class="col-span-12 row-span-2 m-2 rounded-[30px] shadow-lg">
+     
+      <div class="grid grid-cols-12 gap-3 overflow-hidden p-4">
+        <div class="col-span-12 mb-10 row-span-2 m-2 rounded-[30px] shadow-lg">
           <div className="p-1">
             <div className="aspect-w-16 aspect-h-8 rounded-[30px]">
               <iframe
@@ -29,17 +29,65 @@ const Card_1 = () => {
             </div>
           </div>
         </div>
-        <div class="col-span-12 text-5xl row-span-2 m-2 text-white  p-1 ">
-          Movie Info
-          <div className="col-span-3 text-2xl mt-5">Camera : SonyA7iii</div>
-          <div className="flex flex-row">
-            <div className="col-span-3 text-2xl mr-3 mt-5">Dop : Surya ,</div>
-            <div className="col-span-3 text-2xl mr-3 mt-5">
-              Director : Pandiyan <InstagramIcon />
+        <div className="col-span-12 mb-10">
+          <div class="col-span-12 row-span-2 m-2 flex items-center justify-center text-white text-4xl p-1 ">
+            Thuru Pudicha Kadhal
+          </div>
+          <div className="col-span-12 flex items-end justify-center text-white text-1xl">
+            <span className="text-zinc-500  "> Written & Directed</span>
+            <span className="ml-1 text-2xl ">
+              Pandian <InstagramIcon />
+            </span>
+          </div>
+          <div className="col-span-12 flex  items-end justify-center text-white text-1xl">
+            <div className="mr-2">
+              <span className="text-zinc-500"> Dop</span>
+              <span className="ml-1 text-2xl ">
+                Surya <InstagramIcon />
+              </span>
+            </div>
+            <div className="mr-2">
+              <span className="text-zinc-500"> Editor</span>
+              <span className="ml-1 text-2xl ">
+                Lena <InstagramIcon />
+              </span>
+            </div>
+            <div className="mr-2">
+              <span className="text-zinc-500"> Music</span>
+              <span className="ml-1 text-2xl ">
+                Lokesh <InstagramIcon />
+              </span>
+            </div>
+          </div>
+          <div className="col-span-12 flex  items-end justify-center text-white text-1xl">
+            <div className="mr-2">
+              <span className="text-zinc-500"> VFX & PUBLICITY DESIGN</span>
+              <span className="ml-1 text-2xl ">
+                Vishal Suresh <InstagramIcon />
+              </span>
+            </div>
+            <div className="mr-2">
+              <span className="text-zinc-500"> SINGER</span>
+              <span className="ml-1 text-2xl ">
+                Martin <InstagramIcon />
+              </span>
+            </div>
+            <div className="mr-2">
+              <span className="text-zinc-500">LYRICRIST </span>
+              <span className="ml-1 text-2xl ">
+                Saleem r Baadshah <InstagramIcon />
+              </span>
+            </div>
+            <div className="mr-2">
+              <span className="text-zinc-500">Colorist </span>
+              <span className="ml-1 text-2xl ">
+                Siyayoudeen <InstagramIcon />
+              </span>
             </div>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-4 md:col-span-3 rounded-[30px] row-span-2 m-2 text-white  p-1 ">
+
+        <div class="col-span-12  sm:col-span-4 md:col-span-3 rounded-[30px] row-span-2 m-2 text-white  p-1 ">
           <ReactCompareImage
             className="rounded-[30px]"
             leftImage={card2B}
