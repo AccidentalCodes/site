@@ -56,7 +56,7 @@ const Home = () => {
           />
         </div> */}
 
-        <div className="col-span-12  mb-10">
+        <div className="col-span-12  mb-6">
           <Landing />
         </div>
         {/* <div class="col-span-12 row-span-2 m-2 rounded-[30px]  shadow-lg">
@@ -104,7 +104,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Mogathirai
               </h1>
               \
@@ -120,7 +120,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Gonemad
               </h1>
               \
@@ -136,7 +136,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Time for Pride
               </h1>
             </div>
@@ -151,7 +151,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Jai Sri Ram
               </h1>
             </div>
@@ -166,7 +166,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Iclean
               </h1>
             </div>
@@ -180,7 +180,7 @@ const Home = () => {
             />
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Thuru Pudicha Kadhal
               </h1>
             </div>
@@ -195,7 +195,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Un arugil
               </h1>
             </div>
@@ -210,7 +210,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 vazhipokkanin Maayaoli
               </h1>
             </div>
@@ -225,7 +225,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Kuviyamila Katchi Pizhai
               </h1>
             </div>
@@ -240,7 +240,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Mayavidhi
               </h1>
             </div>
@@ -255,7 +255,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Pet 101
               </h1>
             </div>
@@ -270,7 +270,7 @@ const Home = () => {
 
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-white">
+              <h1 class="font-dmserif text-1xl font-['Comfortaa'] font-bold text-yellow-300">
                 Yogi
               </h1>
             </div>

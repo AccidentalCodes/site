@@ -11,10 +11,10 @@ const Footer = () => {
         <div class="col-span-12 flex justify-between rounded-lg mt-10 text-lg  text-white ">
           <div>
             <div>
-              <InstagramIcon className="mr-10" />
-              <TwitterIcon className="mr-10" />
-              <YouTubeIcon className="mr-10" />
-              <LinkedInIcon className="mr-10" />
+              <InstagramIcon className="mr-10 hover:text-pink-600" />
+              <TwitterIcon className="mr-10 hover:text-blue-600" />
+              <YouTubeIcon className="mr-10 hover:text-red-600" />
+              <LinkedInIcon className="mr-10 hover:text-cyan-600" />
             </div>
             <div class="col-span-12 mt-5 mb-10 text-white ">
               © 2023 THE COLOR ALCHEMIST, ALL RIGHTS RESERVED
